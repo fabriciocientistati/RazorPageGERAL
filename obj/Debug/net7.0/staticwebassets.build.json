@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "hCX2NpgUXlBStRq5oIr58GXiinI8ifK9EjIcyihS9IU=",
+  "Source": "RazorApp",
+  "BasePath": "_content/RazorApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorApp\\wwwroot",
+      "Source": "RazorApp",
+      "ContentRoot": "D:\\Repository\\RazorApp\\wwwroot\\",
+      "BasePath": "_content/RazorApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,29 @@
+﻿@page
+@model RazorApp.Pages.IndexModel
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<h1>Categorias</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Title</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Title</td>
+                <td>@category.Price.ToString(format:"C", CultureInfo.CreateSpecificCulture("pt-BR"))</td>
+            </tr>
+        }
+    </tbody>
+</table>
